@@ -14,7 +14,7 @@ It's a single page web application. Users can book car repair services with paym
 - Firebase Authentication. `for log-in process`
 - Firebase Deploy - `for deploy website in live`
 
-### Front-end language & Tools
+### Back-end language & Tools
 
 - Node JS
 - Express JS
