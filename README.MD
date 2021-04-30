@@ -1,4 +1,4 @@
-# Car Service
+# Car Service Booking Website
 
 It's a single page web application. Users can book car repair services with payment, view their orders and give reviews. I used Firebase authentication for login. There is a separate admin dashboard where admin can update order status, add and remove services, and make another person admin.
 
