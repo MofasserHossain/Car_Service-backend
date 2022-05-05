@@ -28,7 +28,8 @@ client.connect((err) => {
   const adminCollection = client.db('CarService').collection('admin');
   const ordersCollection = client.db('CarService').collection('orders');
 
-  console.log('connection successful');
+  console.log('connection successful>>>');
+
   // .add services
   app.post('/addService', (req, res) => {
     const services = req.body;
@@ -37,6 +38,7 @@ client.connect((err) => {
       res.send(result.insertedCount > 1);
     });
   });
+
   // . read service data
   app.get('/services', (req, res) => {
     serviceCollection.find().toArray((err, services) => {
